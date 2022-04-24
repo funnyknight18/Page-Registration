@@ -55,6 +55,10 @@ body{
     margin-top: 30px;  
 }
 
+.container form .details.ID{
+    margin-top: 30px;  
+}
+
 .container form .title{
     display: block;
     margin-bottom: 8px;
@@ -106,3 +110,15 @@ form .fields .input-field{
     color: #333; 
 }
 
+.container form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #4070f4;
+}
