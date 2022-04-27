@@ -41,7 +41,7 @@ body{
     height: 3px ;
     width: 27px;
     border-radius: 8px;
-    background-color: #4070f4 ;
+    background-color: red ;
 
 }
 .container form{
@@ -120,5 +120,25 @@ form .fields .input-field{
     border: none;
     outline: none;
     color: #fff;
+    border-radius: 5px;
+    margin: 25px 0;
+    background-color: red;
+    cursor: pointer;
+}
+
+form button:hover{
     background-color: #4070f4;
+}
+
+form button i{
+    margin: 0 6px;
+}
+
+form.buttons{
+    display: flex;
+    align-items: center;
+}
+
+form.buttons button{
+    margin-right: 14px;
 }
